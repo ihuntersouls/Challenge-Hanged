@@ -1,0 +1,99 @@
+#forca {
+  background-color: rgba(0, 0, 0, 0.178);
+  display: none;
+  box-shadow: 0px 0px 40px 50px #913eb47a;
+}
+.canvas {
+  display: flex;
+  justify-content: center;
+}
+
+#displayGame {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  gap: 4rem;
+}
+.inside-game {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.keyboard-secretword {
+  margin: 0 50px 0 50px;
+}
+.keyboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.btn-key {
+  background: none;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #fff;
+  color: #8d3db6;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Oxygen Mono", sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.btn-key:hover {
+  transform: scale(1.1);
+  color: #f8f9fa;
+  background-color: #00000034;
+  animation: headShake;
+  animation-duration: 0.8s;
+}
+#containerSecretWord {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Oxygen Mono", sans-serif;
+  color: #f8f9fa;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  width: 100%;
+  margin: 20px;
+}
+#containerSecretWord .containerLetter {
+  border-bottom: 4px solid #0a3871;
+  width: 100%;
+  max-width: 90px;
+  margin: 0;
+  min-height: 80px;
+  display: grid;
+  place-content: center;
+  margin: 20px;
+}
+#get-out,
+#new-game {
+  width: 200px;
+}
+
+@media screen and (max-width: 550px) {
+  #displayGame {
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  ul > li {
+    font-size: 1rem;
+  }
+  section > h1 {
+    font-size: 2rem;
+  }
+  #displayGame {
+    height: 1100px;
+  }
+}

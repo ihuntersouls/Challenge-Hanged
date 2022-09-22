@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url(./photos/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* z-index: 99; */
+  display: block;
+}
+
+.btns-home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, auto;
+}
+
+iframe {
+  display: none;
+}
+
+/* Alerts */
+.alert-rules {
+  font-family: "Amatic SC", cursive;
+}
+#swal2-html-container {
+  text-align: left;
+}
+section > h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+ul > li {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.swal2-styled {
+  font-family: "Amatic SC", cursive;
+  width: 80px;
+  font-size: 1.5rem;
+}
+
+
