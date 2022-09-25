@@ -31,22 +31,24 @@
   --bs-btn-disabled-border-color: #f8f9fa;
 }
 .btn-outline-info {
-  --bs-btn-color: #8d3db6;
+  --bs-btn-color: #ffffff;
   --bs-btn-border-color: #8d3db6;
   --bs-btn-hover-bg: #8d3db6;
   --bs-btn-hover-border-color: #8d3db6;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #502162;
   --bs-btn-active-border-color: #502162;
+  text-shadow: 1px 1px 2px #8d3db6, 0 0 25px #8d3db6, 0 0 5px #8d3db6;
 }
 .btn-outline-danger {
-  --bs-btn-color: #502162;
+  --bs-btn-color: #ffffff;
   --bs-btn-border-color: #502162;
   --bs-btn-hover-border-color: #fff;
   --bs-btn-hover-bg: #502162;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #8d3db6;
   --bs-btn-active-border-color: #8d3db6;
+  text-shadow: 1px 1px 2px #8d3db6, 0 0 25px #8d3db6, 0 0 5px #8d3db6;
 }
 .btn {
   font-size: 1.5rem;
